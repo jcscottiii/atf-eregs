@@ -19,10 +19,6 @@ ANALYTICS = {
     },
 }
 
-DATABASES = {
-    'default': dj_database_url.config()
-}
-
 env = AppEnv()
 
 HTTP_AUTH_USER = env.get_credential('HTTP_AUTH_USER')
